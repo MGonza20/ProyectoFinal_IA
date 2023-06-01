@@ -120,7 +120,8 @@ function consecutiveCount(board, playerTurnID) {
     return { threeInRow, twoInRow };
 }
 
-
+// El objetivo de esta heuristica es buscar fichas consecutivas en el tablero
+// y asignar el score para poder conectar 4 fichas de una forma mas rapida
 function assignHeuristic(board, playerTurnID) {
     let opponentID = (playerTurnID == 1) ? 2 : 1;
     
