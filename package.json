@@ -1,0 +1,29 @@
+{
+  "name": "ai_connect4",
+  "version": "1.0.0",
+  "description": "AI Final Project - Connect 4 Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MGonza20/AI_Connect4.git"
+  },
+  "keywords": [
+    "ai",
+    "minimax",
+    "neuronal",
+    "networks"
+  ],
+  "author": "Sara Paguaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MGonza20/AI_Connect4/issues"
+  },
+  "homepage": "https://github.com/MGonza20/AI_Connect4#readme",
+  "dependencies": {
+    "socket.io": "^1.4.6",
+    "socket.io-client": "^1.4.6"
+  }
+}
