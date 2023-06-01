@@ -149,7 +149,7 @@ function minimax(board, depth, alpha, beta, isMaximizing, playerTurnID){
     if (isMaximizing){
         let bestScore = -Infinity;
         for (let i = 0; i < 7; i++){
-            // Checqueando si hay espacio disponible en la columna
+            // Chequeando si hay espacio disponible en la columna
             let row = checkAvailability(board, i);
             if (row != -1){
                 // Board temporal para probar opciones con minimax
